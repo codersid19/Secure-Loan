@@ -3,6 +3,15 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/codersid19/KN_ETE_ML_Project/raw/master/Loan_Approval_Dataset_Processed.zip
+  source_URL: https://github.com/codersid19/Classification--Aws_Sagemaker/raw/master/Loan_Approval_Dataset_Processed_F2.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/Loan_Approval_Dataset_Processed.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+
+

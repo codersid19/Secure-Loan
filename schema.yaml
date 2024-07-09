@@ -1,1 +1,17 @@
-key : val
+COLUMNS:
+   no_of_dependents: int64
+   education: int64
+   self_employed: int64
+   income_annum: int64
+   loan_amount: int64
+   loan_term: int64
+   cibil_score: int64
+   residential_assets_value: int64
+   commercial_assets_value: int64
+   luxury_assets_value: int64
+   bank_asset_value: int64
+   loan_status: int64
+
+
+TARGET_COLUMN:
+  name:  loan_status
