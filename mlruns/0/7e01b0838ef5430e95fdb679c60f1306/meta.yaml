@@ -1,0 +1,15 @@
+artifact_uri: file:///S:/NEW/Projects/Secure_Loan/mlruns/0/7e01b0838ef5430e95fdb679c60f1306/artifacts
+end_time: 1720579023534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e01b0838ef5430e95fdb679c60f1306
+run_name: auspicious-skink-13
+run_uuid: 7e01b0838ef5430e95fdb679c60f1306
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720579018649
+status: 3
+tags: []
+user_id: shiro

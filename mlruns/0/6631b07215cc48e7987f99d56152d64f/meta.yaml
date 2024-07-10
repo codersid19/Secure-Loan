@@ -1,0 +1,15 @@
+artifact_uri: file:///S:/NEW/Projects/Secure_Loan/mlruns/0/6631b07215cc48e7987f99d56152d64f/artifacts
+end_time: 1720578737151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6631b07215cc48e7987f99d56152d64f
+run_name: clean-ray-395
+run_uuid: 6631b07215cc48e7987f99d56152d64f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720578730438
+status: 3
+tags: []
+user_id: shiro
