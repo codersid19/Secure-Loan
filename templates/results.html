@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Secure Loan</title>
+        <title>Prediction</title>
         <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -35,137 +35,19 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('static/assets/img/wine.jpg')">
+        <header class="masthead" style="background-image: url('static/assets/img/wine.gif')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Loan Approval Predictor</h1>
-                            <span class="subheading">An AI powered loan Approval system</span>
+                            <h1>Loan Decision</h1>
+                             <h1>{{prediction}}</h1>
+                            <span class="subheading"></span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
-
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-
-           <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Form-v9 by Colorlib</title>
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Font-->
-	<link rel="stylesheet" type="text/css" href="static/css2/nunito-font.css">
-	<!-- Main Style Css -->
-    <link rel="stylesheet" href="static/css2/style.css"/>
-</head>
-<body class="form-v9">
-	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
-			<form class="form-detail" action="/predict" method="post">
-				<h2>Please Fill The Information</h2>
-				<div class="form-row-total">
-
-					<div class="form-row">
-                        <label for="no_of_dependents">No of dependents:</label>
-						<input type="text" name="no_of_dependents" id="no_of_dependents" class="input-text" placeholder="no_of_dependents" required>
-					</div>
-
-					<div class="form-row">
-                        <label for="education">Education:(0: Graduate, 1:Not Graduate)</label>
-						<input type="text" name="education" id="education" class="input-text" placeholder="education" required>
-					</div>
-
-				</div>
-
-
-				<div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="self_employed">Self Employed:(0: No, 1: Yes)</label>
-						<input type="text" name="self_employed" id="self_employed" class="input-text" placeholder="self_employed" required>
-					</div>
-
-
-                    <div class="form-row">
-                        <label for="income_annum">Income annum:</label>
-						<input type="text" name="income_annum" id="income_annum" class="input-text" placeholder="income_annum" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="loan_amount">Loan Amount:</label>
-						<input type="text" name="loan_amount" id="loan_amount" class="input-text" placeholder="loan_amount" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="loan_term">Loan Term:</label>
-						<input type="text" name="loan_term" id="loan_term" class="input-text" placeholder="loan_term" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="cibil_score">Cibil Score</label>
-						<input type="text" name="cibil_score" id="cibil_score" class="input-text" placeholder="cibil_score" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="residential_assets_value">Residential Assets Value:</label>
-						<input type="text" name="residential_assets_value" id="residential_assets_value" class="input-text" placeholder="residential_assets_value" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="commercial_assets_value">Commercial Assets Value</label>
-						<input type="text" name="commercial_assets_value" id="commercial_assets_value" class="input-text" placeholder="commercial_assets_value" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="luxury_assets_value">Luxury Assets Value</label>
-						<input type="text" name="luxury_assets_value" id="luxury_assets_value" class="input-text" placeholder="luxury_assets_value" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="bank_asset_value">Bank Asset Value</label>
-						<input type="text" name="bank_asset_value" id="bank_asset_value" class="input-text" placeholder="bank_asset_value" required>
-					</div>
-
-
-				</div>
-
-
-				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Predict">
-				</div>
-			</form>
-		</div>
-	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-</html>
-
-        </div>
 
 
         <!-- Footer-->
