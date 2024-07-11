@@ -20,4 +20,4 @@ Run the application:
 `python app.py`
 
 Open the application in your browser:
-Open your browser and navigate to http://localhost:5000.
+Open your browser and navigate to 'http://localhost:5000.'
