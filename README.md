@@ -4,10 +4,10 @@ An application built using Flask, Python, and machine learning algorithms. The a
 # How to Run
 Steps:
 Clone the repository: 
-`git clone https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow`
+`git clone https://github.com/codersid19/Secure-Loan.git`
 
 Navigate to the repository:
-`cd End-to-end-Machine-Learning-Project-with-MLflow`
+`cd Secure-Loan`
 
 Create a conda environment:
 `conda create -n mlproj python=3.8 -y`
